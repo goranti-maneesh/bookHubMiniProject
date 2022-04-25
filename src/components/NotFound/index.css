@@ -1,0 +1,38 @@
+.not-fount-container{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    text-align: center;
+}
+
+.not-found-image{
+    width: 200px;
+}
+
+.page-not-found-title{
+    font-size: 32;
+    color: #334155;
+    font-weight: 500;
+}
+
+.not-found-description{
+    font-size: 200;
+    font-weight: 400;
+    color: #475569;
+}
+
+.not-found-link-go-back{
+    text-decoration: none;
+}
+
+.go-back-button{
+    background-color: #0284C7;
+    padding: 12px 24px 12px 24px;
+    color: white;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+}

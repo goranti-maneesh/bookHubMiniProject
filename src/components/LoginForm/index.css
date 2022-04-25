@@ -1,0 +1,148 @@
+.login-form-container{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100vh;
+}
+
+@media(max-width: 768px){
+    .login-form-container{
+        flex-direction: column;
+        padding: 20px;
+        width: 85%;
+    }
+}
+
+.bookhub-image-section{
+    width: 50%;
+}
+
+@media(max-width: 768px){
+    .bookhub-image-section{
+        width: 100%;
+        height: 30%;
+        display: flex;
+        justify-content: center;
+    }
+}
+
+.bookhub-image{
+    width: 100%;
+    height: 100%;
+}
+
+@media(max-width: 768px){
+    .bookhub-image{
+        width: 70%;
+        height: 100%;
+        border-radius: 50%;
+    }
+}
+
+
+.input-feild-section{
+    width: 50%;
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    background-color: #E5E5E5;
+}
+
+@media(max-width: 768px){
+    .input-feild-section{
+        background-color: white;
+        width: 100%;
+    }
+}
+
+.credentials-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 70%;
+    height: 40%;
+    padding: 20px;
+    align-items: center;
+    background-color: white;
+}
+
+@media(max-width: 768px){
+    .credentials-container{
+        /* justify-content: flex-start; */
+        width: 100%;
+        height: 70%;
+    }
+}
+
+.bookhub-logo{
+    width: 200px;
+}
+
+@media(max-width: 768px){
+    .bookhub-logo{
+        width: 170px;
+    }
+}
+
+.ul-ele{
+    width: 60%;
+    padding: 0px;
+    list-style-type: none;
+    height: 40%;
+    display: flex;
+    flex-direction: column; 
+    justify-content: space-between;
+}
+
+@media(max-width: 768px){
+    .ul-ele{
+        width: 100%;
+        height: 40%;
+        /* justify-content: flex-start; */
+    }
+}
+
+.each-input-li{
+    width: 100%;
+}
+
+.label-ele{
+    color: #5A7184;
+    font-size: 16px;
+}
+
+.input-ele{
+    width: 95%;
+    border: 1px solid #C3CAD9;
+    border-radius: 8px;
+    height: 40px;
+    outline: none;
+    padding: 0px 0px 0px 10px;
+    color: #183B56;
+    font-size: 16px;
+}
+
+.error-msg{
+    color: #EF4444;
+    font-size: 14px;
+}
+
+.login-button{
+    color: white;
+    font-size: 20px;
+    width: 60%;
+    height: 40px;
+    background-color: #0284C7;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+@media(max-width: 768px){
+    .login-button{
+        width: 100%;
+    }
+}

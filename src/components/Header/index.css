@@ -1,0 +1,136 @@
+.header-main-container{
+    width: 100%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+@media (max-width: 768px){
+    .header-main-container{
+        width: 100%;
+        /* padding: 0px 20px 0px 20px; */
+        /* padding: 20px; */
+    }
+}
+
+.header-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px;
+    align-items: center;
+    width: 80%;
+}
+
+@media (max-width: 768px){
+    .header-container{
+        width: 90%;
+    }
+}
+
+.header-links{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px;
+    list-style-type: none;
+    /* border: 2px solid blue; */
+}
+
+.large-device-header-links{
+    width: 300px;
+}
+
+@media (max-width: 768px){
+    .header-links{
+        width: 300px;
+    }
+
+    .large-device-header-links{
+        display: none;
+    }
+}
+
+.menu-button{
+    display: none;
+}
+
+@media (max-width: 768px){
+    .menu-button{
+        border: none;
+        outline: none;
+        display: inline;
+        background-color: white;
+    }
+
+    .cross-mark-button{
+        border: none;
+        outline: none;
+        display: inline;
+        background-color: #E5E5E5;
+    }
+
+    .menu-icon{
+        display: flex;
+        color: #475569;
+        width: 35px;
+        height: 35px;
+    }
+}
+
+.list-ele{
+    color: #0284C7;
+    font-size: 16px;
+}
+
+@media (max-width: 768px){
+    .list-ele{
+        color: #64748B;
+    }
+}
+
+.link{
+    color: none;
+    text-decoration: none;
+}
+
+.header-bookhub-logo{
+    width: 140px;
+    height: 55px;
+}
+
+.logout-btn{
+    width: 73px;
+    height: 35px;
+    color: white;
+    background-color: #0284C7;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+}
+
+.small-device-menu-section{
+    display: none;
+}
+
+@media (max-width: 768px){
+    .small-device-menu{
+        width: 100%;
+        background-color: #E5E5E5;
+    }
+    
+    .small-device-menu-section{
+        width: 90%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: auto;
+    }
+}
+
+.cross-mark-icon{
+    width: 35px;
+    height: 53px;
+}
