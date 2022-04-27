@@ -7,7 +7,7 @@ import Cookies from 'js-cookie'
 import './index.css'
 
 interface HerderStateInterface{
-    history: any //TODO:
+    history: any
 }
 
 interface StateType  {

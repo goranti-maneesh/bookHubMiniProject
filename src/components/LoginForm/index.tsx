@@ -98,7 +98,7 @@ class LoginForm extends Component <LoginHistoryProps>{
         const {username, password, errorMsg, isErrorDisplayed, loadingStatus} = this.state
         const jwtToken = Cookies.get("jwt_token")
         if(jwtToken !== undefined){
-            // return <Redirect to="/"/>
+            return <Redirect to="/"/>
         }
         return(
             <div className="login-form-container">
